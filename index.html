@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bright Owusu - Portfolio">
+    <meta name="author" content="Bright Owusu">
+    <title>Bright Owusu - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="profile">
+            <img src="images/profile.jpg" alt="Bright Owusu" class="profile-pic">
+            <span class="name">Bright Owusu</span>
+        </div>
+        <button class="menu-toggle" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="#">GitHub Profile</a></li>
+                <li><a href="https://www.linkedin.com/in/bright-owusu-98b3a8262" target="_blank">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Home</h1>
+        <div class="container">
+            <section class="card">
+                <h2>Course Work</h2>
+                <ul>
+                    <li>•</li>
+                    <li>•</li>
+                    <li>•</li>
+                </ul>
+            </section>
+            <section class="card">
+                <h2>Accra, Ghana</h2>
+                <img src="/images/accra-1.jpg" alt="">
+                <p class="caption">City of Accra</p>
+            </section>
+        </div>
+
+        <!-- Web & Computer Programming Certificate -->
+        <section class="certificate">
+            <h2>Web and Computer Programming Certificate</h2>
+        
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+                <button id="btn-all">All</button>
+                <button id="btn-cse">CSE</button>
+                <button id="btn-wdd">WDD</button>
+            </div>
+    
+            <!-- Courses Container -->
+            <div id="courses-container" class="courses-container"></div>
+    
+            <!-- Total Credits -->
+            <p id="total-credits">Total Credits: 0</p>
+            <div class="course-buttons">
+                <button class="cse">CSE 110</button>
+                <button class="wdd">WDD 130</button>
+                <button class="cse">CSE 111</button>
+                <button class="cse">CSE 210</button>
+                <button class="wdd">WDD 131</button>
+                <button class="wdd">WDD 231</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span>  Bright Owusu - Ghana</p>
+        <p id="lastModified">Last Update: </p>
+    </footer>
+</body>
+</html>
