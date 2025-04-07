@@ -1,0 +1,66 @@
+[
+    {
+      "name": "BrightTech Solutions",
+      "address": "123 Innovation Road, Accra",
+      "phone": "+233 200 456 789",
+      "website": "https://brighttech.com",
+      "image": "/chamber/images/download.png",
+      "membership": 3,
+      "description": "Technology and IT services for modern businesses."
+    },
+    {
+      "name": "QTS Contractors",
+      "address": "45 Builder Street,West Trassaco",
+      "phone": "+233 246 654 321",
+      "website": "https://qtsghana.com",
+      "image": "/chamber/images/QTS.jpeg",
+      "membership": 2,
+      "description": "Reliable construction and civil works."
+    },
+    {
+      "name": "Verified GH",
+      "address": "88 Startup Lane, Accra",
+      "phone": "+233 561 222 333",
+      "website": "https://verifiedgh.com",
+      "image": "/chamber/images/veri.jpg",
+      "membership": 1,
+      "description": "Business verification and consulting."
+    },
+    {
+      "name": "Royal Furnishings",
+      "address": "10 Elegance Avenue, Takoradi",
+      "phone": "+233 242 444 666",
+      "website": "https://royalfurn.com",
+      "image":"/chamber/images/Furn.jfif",
+      "membership": 3,
+      "description": "Premium furniture for homes and offices."
+    },
+    {
+      "name": "EcoGreen Ghana",
+      "address": "15 Nature Road, Accra ",
+      "phone": "+233 555 777 888",
+      "website": "https://ecogreen.com",
+      "image": "/chamber/images/eco.png",
+      "membership": 2,
+      "description": "Sustainable and eco-friendly products."
+    },
+    {
+      "name": "SmartFinance",
+      "address": "21 Money Blvd, Tema",
+      "phone": "+233 243 888 000",
+      "website": "https://smartfinance.com",
+      "image": "/chamber/images/smart.png",
+      "membership": 1,
+      "description": "Personal and business financial advice."
+    },
+    {
+      "name": "Royal George Guesthouse",
+      "address": "7 Hospitality Drive, Wejia",
+      "phone": "+233 244 999 123",
+      "website": "https://royalgeorgegh.com",
+      "image": "/chamber/images/house.jfif",
+      "membership": 3,
+      "description": "Affordable luxury guesthouse experience."
+    }
+  ]
+  
