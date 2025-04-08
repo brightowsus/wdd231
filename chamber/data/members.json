@@ -13,7 +13,7 @@
       "address": "45 Builder Street,West Trassaco",
       "phone": "+233 246 654 321",
       "website": "https://qtsghana.com",
-      "image": "images/QTS.jpeg",
+      "image": "images/qts.jpeg",
       "membership": 2,
       "description": "Reliable construction and civil works."
     },
@@ -22,7 +22,7 @@
       "address": "88 Startup Lane, Accra",
       "phone": "+233 561 222 333",
       "website": "https://verifiedgh.com",
-      "image": "images/veri.jpg",
+      "image":"images/veri.jpg",
       "membership": 1,
       "description": "Business verification and consulting."
     },
@@ -31,7 +31,7 @@
       "address": "10 Elegance Avenue, Takoradi",
       "phone": "+233 242 444 666",
       "website": "https://royalfurn.com",
-      "image":"images/Furn.jfif",
+      "image":"images/furn.jfif",
       "membership": 3,
       "description": "Premium furniture for homes and offices."
     },
