@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   async function fetchMembers() {
     try {
-      const response = await fetch("/chamber/data/members.json");
+      const response = await fetch("data/members.json");
       const members = await response.json();
       displayMembers(members);
     } catch (error) {
