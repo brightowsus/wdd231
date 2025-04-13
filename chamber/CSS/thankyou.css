@@ -1,0 +1,128 @@
+:root {
+    --primary: #2a9d8f;
+    --secondary: #264653;
+    --accent: #e76f51;
+    --light: #f4f4f4;
+    --white: #fff;
+    --text: #333;
+}
+
+/* Reset + Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--light);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--accent);
+}
+
+/* Header */
+header {
+    background-color: var(--secondary);
+    color: var(--white);
+    padding: 1.5rem 1rem;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav a {
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+nav a.active, nav a:hover {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+/* Main Content */
+main {
+    text-align: center;
+    padding: 3rem 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    color: var(--secondary);
+    margin-bottom: 2rem;
+}
+
+.submission-info {
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    text-align: left;
+}
+
+.submission-info p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.submission-info p strong {
+    color: var(--primary);
+}
+
+/* Footer */
+footer {
+    background-color: var(--secondary);
+    color: var(--white);
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.footer-container p {
+    margin: 0.5rem 0;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+    main {
+        padding: 2rem 1rem;
+    }
+
+    .submission-info {
+        padding: 15px;
+    }
+}
+

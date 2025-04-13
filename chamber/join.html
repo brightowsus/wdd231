@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce | Join</title>
+    <link rel="stylesheet" href="CSS/join.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Chamber of Commerce</h1>
+            <nav>
+              <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+    </header>
+    <main>
+        <h1>Join the Chamber of Commerce</h1>
+        <form method="get" action="thankyou.html">
+            <!-- First Name -->
+            <label for="first-name" title="Your First Name">
+                First Name
+                <input type="text" id="first-name" name="first-name" required autocomplete="given-name">
+            </label>
+
+            <!-- Last Name -->
+            <label for="last-name" title="Your Last Name">
+                Last Name
+                <input type="text" id="last-name" name="last-name" required autocomplete="family-name">
+            </label>
+
+            <!-- Organizational Title -->
+            <label for="organization-title" title="Your Organizational Title">
+                Organizational Title
+                <input type="text" id="organization-title" name="organization-title" required pattern="[A-Za-z\s\-]{7,}" autocomplete="organization-title">
+            </label>
+
+            <!-- Email Address -->
+            <label for="email" title="Your Email Address">
+                Email
+                <input type="email" id="email" name="email" required autocomplete="email" placeholder="example@example.com">
+            </label>
+
+            <!-- Mobile Phone Number -->
+            <label for="phone" title="Your Mobile Phone Number">
+                Mobile Phone
+                <input type="tel" id="phone" name="phone" required autocomplete="tel">
+            </label>
+
+            <!-- Business Name -->
+            <label for="business-name" title="Your Business Name">
+                Business Name
+                <input type="text" id="business-name" name="business-name" required autocomplete="organization">
+            </label>
+
+            <!-- Membership Level -->
+            <label for="membership" title="Choose Your Membership Level">
+                Membership Level
+                <select id="membership" name="membership">
+                    <option value="NP">NP Membership</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select>
+            </label>
+
+            <!-- Business Description -->
+            <label for="description" title="Your Business Description">
+                Business Description
+                <textarea id="description" name="description" required></textarea>
+            </label>
+
+            <!-- Timestamp -->
+            <input type="hidden" id="timestamp" name="timestamp" value="">
+
+            <!-- Submit Button -->
+            <input type="submit" value="Submit">
+        </form>
+
+        <!-- Membership Cards -->
+        <div class="membership-cards">
+            <div class="card" id="np-card">
+                <h3>NP Membership</h3>
+                <p>No fee for nonprofit organizations</p>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#npModal">Learn More</a>
+            </div>
+            <div class="card" id="bronze-card">
+                <h3>Bronze Membership</h3>
+                <p>Basic membership benefits</p>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#bronzeModal">Learn More</a>
+            </div>
+            <div class="card" id="silver-card">
+                <h3>Silver Membership</h3>
+                <p>Includes event discounts and more</p>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#silverModal">Learn More</a>
+            </div>
+            <div class="card" id="gold-card">
+                <h3>Gold Membership</h3>
+                <p>All-inclusive benefits including spotlight</p>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#goldModal">Learn More</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p><strong>Contact:</strong> owusub230@gmail.com | <strong>Phone:</strong> +233 0558 193 956 </p>
+            <p>&copy; 2025 Bright Owusu | WDD 231</p>
+            <p id="lastModified"></p>
+          </div>
+    </footer>
+
+    <!-- Modal for NP Membership -->
+    <div class="modal" id="npModal">
+        <div class="modal-content">
+            <h3>NP Membership Benefits</h3>
+            <p>Special events, nonprofit advertising, and more.</p>
+            <button data-bs-dismiss="modal">Close</button>
+        </div>
+    </div>
+
+    <!-- Modal for Bronze Membership -->
+    <div class="modal" id="bronzeModal">
+        <div class="modal-content">
+            <h3>Bronze Membership Benefits</h3>
+            <p>Access to basic training, event discounts, and more.</p>
+            <button data-bs-dismiss="modal">Close</button>
+        </div>
+    </div>
+
+    <!-- Modal for Silver Membership -->
+    <div class="modal" id="silverModal">
+        <div class="modal-content">
+            <h3>Silver Membership Benefits</h3>
+            <p>Additional advertising options and special events.</p>
+            <button data-bs-dismiss="modal">Close</button>
+        </div>
+    </div>
+
+    <!-- Modal for Gold Membership -->
+    <div class="modal" id="goldModal">
+        <div class="modal-content">
+            <h3>Gold Membership Benefits</h3>
+            <p>Spotlight positions, exclusive training, and more.</p>
+            <button data-bs-dismiss="modal">Close</button>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
