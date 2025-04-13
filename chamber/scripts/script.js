@@ -55,3 +55,4 @@ document.addEventListener("DOMContentLoaded", () => {
   // Fetch members
   fetchMembers();
 });
+
