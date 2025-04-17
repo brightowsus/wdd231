@@ -1,0 +1,61 @@
+{
+    "items": [
+      {
+        "title": "Historic Landmark",
+        "image": "landmark.webp",
+        "address": "123 Historic St.",
+        "description": "Explore the rich history of the area at this historic landmark.",
+        "url": "#"
+      },
+      {
+        "title": "Local Park",
+        "image": "park.webp",
+        "address": "456 Park Rd.",
+        "description": "Enjoy nature at this beautiful park with walking trails.",
+        "url": "#"
+      },
+      {
+        "title": "Cultural Festival",
+        "image": "festival.webp",
+        "address": "789 Main St.",
+        "description": "Join us for the annual cultural festival celebrating local arts.",
+        "url": "#"
+      },
+      {
+        "title": "Famous Restaurant",
+        "image": "res.webp",
+        "address": "101 Restaurant Ave.",
+        "description": "Dine at the best local restaurant offering delicious cuisine.",
+        "url": "#"
+      },
+      {
+        "title": "Shopping District",
+        "image": "shopping.webp",
+        "address": "202 Mall Rd.",
+        "description": "Shop for local goods and international brands at this shopping hub.",
+        "url": "#"
+      },
+      {
+        "title": "Beach",
+        "image": "beach.webp",
+        "address": "303 Beach Rd.",
+        "description": "Relax and enjoy the beach with plenty of water sports available.",
+        "url": "#"
+      },
+      {
+        "title": "Art Gallery",
+        "image": "art.webp",
+        "address": "404 Art St.",
+        "description": "Explore local and international artists at the gallery.",
+        "url": "#"
+      },
+      {
+        "title": "Adventure Park",
+        "image": "ad.webp",
+        "address": "505 Adventure Dr.",
+        "description": "Thrilling outdoor activities for the whole family to enjoy.",
+        "url": "#"
+      }
+    ]
+  }
+  
