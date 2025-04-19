@@ -1,0 +1,74 @@
+/* styles.css */
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap');
+
+/* Root Variables */
+:root {
+  --coffee-brown: #6b4226;
+  --cream: #fef9f4;
+  --heading-font: 'Playfair Display', serif;
+  --body-font: 'Roboto', sans-serif;
+}
+
+/* Base Styles */
+body {
+  margin: 0;
+  font-family: var(--body-font);
+  background-color: var(--cream);
+  color: #3e3e3e;
+  line-height: 1.6;
+  padding: 1rem;
+}
+
+h1, h2 {
+  font-family: var(--heading-font);
+  color: var(--coffee-brown);
+}
+
+header {
+  background-color: #fffdf9;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  border-bottom: 2px solid #eee;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: var(--coffee-brown);
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+  border-top: 1px solid #ddd;
+  background-color: #fffdf9;
+}

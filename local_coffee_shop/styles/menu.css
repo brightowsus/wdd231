@@ -1,0 +1,110 @@
+:root {
+    --coffee-brown: #6b4226;
+    --cream: #fef9f4;
+    --light-accent: #f4e7da;
+    --font-body: 'Roboto', sans-serif;
+    --font-heading: 'Playfair Display', serif;
+  }
+  
+  body {
+    font-family: var(--font-body);
+    background-color: var(--cream);
+    color: #3e3e3e;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: var(--coffee-brown);
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  nav {
+    margin-top: 1rem;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    background-color: var(--cream); /* or your preferred background */
+  }
+  
+  .menu-card {
+    background-color: #fffdf9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    transition: transform 0.2s ease;
+    text-align: center;
+  }
+  
+  .menu-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .menu-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .menu-card h3 {
+    margin: 1rem 0 0.5rem;
+    font-size: 1.25rem;
+    color: var(--coffee-brown);
+  }
+  
+  .menu-card p {
+    font-size: 0.95rem;
+    padding: 0 1rem 0.5rem;
+    color: #555;
+  }
+  
+  .menu-card .price {
+    font-weight: bold;
+    color: #6b4226;
+    margin-bottom: 1rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--coffee-brown);
+    color: white;
+    font-size: 0.9rem;
+  }
+  
+
+  @media (max-width: 600px) {
+    .menu-container {
+      grid-template-columns: 1fr; /* Stack to 1 column on mobile */
+    }
+  }
+  

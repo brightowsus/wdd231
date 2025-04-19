@@ -1,0 +1,29 @@
+{
+    "menu": [
+      {
+        "name": "Caramel Latte",
+        "description": "Espresso with steamed milk and caramel syrup.",
+        "price": 4.50,
+        "image": "images/caramel-latte.jfif"
+      },
+      {
+        "name": "Mocha Delight",
+        "description": "Rich chocolate, espresso, and whipped cream.",
+        "price": 4.75,
+        "image": "images/mocha-delight.webp"
+      },
+      {
+        "name": "Iced Americano",
+        "description": "Chilled espresso over ice for a bold flavor.",
+        "price": 3.25,
+        "image": "images/iced-americano.jfif"
+      },
+      {
+        "name": "Matcha Latte",
+        "description": "Green tea matcha with steamed milk and honey.",
+        "price": 4.25,
+        "image": "images/matcha-latte.jfif"
+      }
+    ]
+  }
+  

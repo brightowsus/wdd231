@@ -1,0 +1,65 @@
+{
+    "menu": [
+      {
+        "name": "Caramel Latte",
+        "description": "Espresso with steamed milk and caramel syrup.",
+        "price": 4.50,
+        "image": "images/caramel-latte.jfif"
+      },
+      {
+        "name": "Mocha Delight",
+        "description": "Rich chocolate, espresso, and whipped cream.",
+        "price": 4.75,
+        "image": "images/mocha-delight.webp"
+      },
+      {
+        "name": "Iced Americano",
+        "description": "Chilled espresso over ice for a bold flavor.",
+        "price": 3.25,
+        "image": "images/iced-americano.jfif"
+      },
+      {
+        "name": "Matcha Latte",
+        "description": "Green tea matcha with steamed milk and honey.",
+        "price": 4.25,
+        "image": "images/matcha-latte.jfif"
+      },
+      {
+        "name": "Vanilla Cold Brew",
+        "description": "Smooth cold brew with a splash of vanilla cream.",
+        "price": 4.00,
+        "image": "images/vanilla-cold-brew.jfif"
+      },
+      {
+        "name": "Hazelnut Cappuccino",
+        "description": "Foamy cappuccino with a touch of hazelnut flavor.",
+        "price": 4.30,
+        "image": "images/hazelnut-cappuccino.jfif"
+      },
+      {
+        "name": "Pumpkin Spice Latte",
+        "description": "Seasonal favorite with real pumpkin and warm spices.",
+        "price": 4.95,
+        "image": "images/pumpkin-spice-latte.jfif"
+      },
+      {
+        "name": "Espresso Shot",
+        "description": "A bold shot of freshly brewed espresso.",
+        "price": 2.00,
+        "image": "images/espresso-shot.jfif"
+      },
+      {
+        "name": "Chai Tea Latte",
+        "description": "Spiced black tea with steamed milk and honey.",
+        "price": 4.20,
+        "image": "images/chai-tea-latte.jfif"
+      },
+      {
+        "name": "Blueberry Muffin",
+        "description": "Freshly baked muffin bursting with blueberries.",
+        "price": 2.75,
+        "image": "images/blueberry-muffin.jfif"
+      }
+    ]
+  }
+  
